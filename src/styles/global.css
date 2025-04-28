@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+:root{
+    --dark-background-color: #252B42;
+    --primary-color: #23A6F0;
+    --light-text-color: #FFFFFF;
+    --second-text-color: #737373;
+    --border-card: #F2F2F2;
+    --light-background-color: #FFFFFF;
+    --text-color: #252B42;
+    --muted-color: #BDBDBD;
+    --disabled-element-color: #8EC2F2;
+    --light-gray-1: #FAFAFA;
+
+    --font: "Montserrat", sans-serif;
+}
