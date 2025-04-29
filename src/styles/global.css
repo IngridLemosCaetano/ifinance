@@ -5,6 +5,10 @@
     list-style: none;
     border: none;
 }
+body{
+    background-color: var(--dark-background-color);
+    font-family: var(--font);
+}
 
 :root{
     --dark-background-color: #252B42;
