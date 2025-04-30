@@ -1,5 +1,6 @@
 @import url(./global.css);
 
+/*----------------- Header -----------------*/
 header{
     display: flex;
     justify-content: space-evenly;
@@ -70,5 +71,62 @@ header nav ul a{
 .btn-new-members img{
     height: 12px;
     width: 14px;
+}
 
+/*----------------- Main -----------------*/
+main{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 509px;
+    padding: 111px 0px;
+    gap: 35px;
+}
+
+.main-container h1{
+    color: var(--light-text-color);
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+.main-container p{
+    width: 376px;
+    color: var(--light-text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.main-btn{
+    display: flex;
+    gap: 10px;
+}
+.main-btn1{
+    padding: 15px 36px;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    border-radius: 37px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.main-btn2{
+    padding: 15px 36px;
+    background-color: transparent;
+    color: var(--light-text-color);
+    border-radius: 37px;
+    border: 1px solid var(--light-text-color);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
 }
