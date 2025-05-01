@@ -137,14 +137,13 @@ main{
     padding: 70px 231px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 69px;
     align-items: center;
 }
 .content{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* width: 688px; */
 }
 .content h2{
     width: 451px;
@@ -203,7 +202,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 60px;
     padding: 80px 0px;
 }
 .clients-review{
@@ -217,7 +216,6 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* width: 688px; */
 }
 .clients-content h2{
     width: 451px;
@@ -277,7 +275,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 80px 0px;
+    padding: 60px 0px;
     gap: 50px;
 }
 
@@ -304,4 +302,33 @@ main{
 .download-cards{
     display: flex;
     gap: 10px;
+}
+
+.download-cards-content{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid var(--muted-color);
+    gap: 25px;
+    padding: 18px 28px;
+}
+
+.download-cards-content-img{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-cards-content-text p{
+    color: var(--light-text-color);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.download-cards-content-text h3{
+    color: var(--light-text-color);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
 }
