@@ -134,7 +134,7 @@ main{
 /*----------------- Business -----------------*/
 
 .business{
-    padding: 96px 231px;
+    padding: 70px 231px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -199,3 +199,74 @@ main{
 }
 
 /*----------------- Clients -----------------*/
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 0px;
+}
+.clients-review{
+    background-color: var(--light-background-color);
+    gap: 30px;
+    padding: 35px 40px;
+    width: 744px;
+    border-radius: 5px;
+}
+.clients-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 688px; */
+}
+.clients-content h2{
+    width: 451px;
+    color: var(--light-text-color);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.clients-content p{
+    width: 470px;
+    color: var(--light-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.clients-review{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0px;
+    align-items: center;
+}
+.clients-review-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.clients-review-infos-text p{
+    text-align: center !important;
+    color: var(--second-text-color) !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+}
+.clients-review-infos h2{
+    color: var(--text-color);
+    font-family: 24px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.clients-review-infos p{
+    color: var(--second-text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
