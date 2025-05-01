@@ -1,20 +1,20 @@
 @import url(./global.css);
 
 /*----------------- Header -----------------*/
-header{
+header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-header h3{
+header h3 {
     font-size: 24px;
     font-weight: bold;
     color: var(--light-text-color);
     margin: 30px 0px;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     gap: 21px;
     font-size: 14px;
@@ -24,11 +24,11 @@ header nav ul{
     margin: 34px 0px;
 }
 
-header nav ul a{
+header nav ul a {
     color: var(--light-text-color);
 }
 
-.header-btn{
+.header-btn {
     display: flex;
     gap: 21px;
     align-items: center;
@@ -36,7 +36,7 @@ header nav ul a{
     margin: 20px 0px;
 }
 
-.btn-login{
+.btn-login {
     background-color: transparent;
     color: var(--light-text-color);
     font-size: 14px;
@@ -47,7 +47,7 @@ header nav ul a{
     cursor: pointer;
 }
 
-.btn-new-members{
+.btn-new-members {
     /* rever o cursor pointer */
     display: flex;
     background-color: var(--primary-color);
@@ -58,7 +58,7 @@ header nav ul a{
     cursor: pointer;
 }
 
-.btn-new-members button{
+.btn-new-members button {
     background-color: transparent;
     color: var(--light-text-color);
     font-size: 14px;
@@ -68,18 +68,19 @@ header nav ul a{
     cursor: pointer;
 }
 
-.btn-new-members img{
+.btn-new-members img {
     height: 12px;
     width: 14px;
 }
 
 /*----------------- Main -----------------*/
-main{
+main {
     display: flex;
     justify-content: center;
     padding: 40px 0px;
 }
-.main-container{
+
+.main-container {
     display: flex;
     flex-direction: column;
     width: 509px;
@@ -87,23 +88,26 @@ main{
     gap: 35px;
 }
 
-.main-container h1{
+.main-container h1 {
     color: var(--light-text-color);
     font-size: 58px;
     font-weight: 800;
     line-height: 80px;
     letter-spacing: 0.2px;
 }
-.main-container p{
+
+.main-container p {
     width: 376px;
     font-size: 20px;
     line-height: 30px;
 }
-.main-btn{
+
+.main-btn {
     display: flex;
     gap: 10px;
 }
-.main-btn1{
+
+.main-btn1 {
     padding: 15px 36px;
     background-color: var(--primary-color);
     color: var(--light-text-color);
@@ -115,7 +119,7 @@ main{
     cursor: pointer;
 }
 
-.main-btn2{
+.main-btn2 {
     padding: 15px 36px;
     background-color: transparent;
     color: var(--light-text-color);
@@ -130,110 +134,124 @@ main{
 
 /*----------------- Business -----------------*/
 
-.business{
+.business {
     padding: 70px 231px;
     display: flex;
     flex-direction: column;
     gap: 69px;
     align-items: center;
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.content h2{
+
+.content h2 {
     width: 451px;
 }
 
-.content p{
-    color: var(--second-text-color);    
+.content p {
+    color: var(--second-text-color);
 }
-.cards{
+
+.cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.card-info{
+
+.card-info {
     display: flex;
     padding: 35px 20px;
     border: 1px solid #F2F2F2;
     gap: 20px;
     width: 329px;
 }
-.card-info img{
+
+.card-info img {
     width: 48px;
     height: 39.5px;
 }
-.card-info-content{
+
+.card-info-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
 }
-.card-info-content h3{
+
+.card-info-content h3 {
     color: var(--light-text-color);
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
 }
-.card-info-content p{
+
+.card-info-content p {
     text-align: left;
     width: 213px;
 }
 
 /*----------------- Clients -----------------*/
-.clients{
+.clients {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 60px;
     padding: 80px 0px;
 }
-.clients-review{
+
+.clients-review {
     background-color: var(--light-background-color);
     gap: 30px;
     padding: 35px 40px;
     width: 744px;
     border-radius: 5px;
 }
-.clients-content{
+
+.clients-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.clients-review{
+.clients-review {
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 40px 0px;
     align-items: center;
 }
-.clients-review-infos{
+
+.clients-review-infos {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
 }
-.clients-review-infos-text p{
+
+.clients-review-infos-text p {
     font-weight: 400 !important;
     line-height: 20px !important;
 }
-.clients-review-infos h3{
+
+.clients-review-infos h3 {
     color: var(--text-color);
     font-family: 24px;
     font-weight: bold;
     line-height: 32px;
 }
-.clients-review-infos p{
+
+.clients-review-infos p {
     color: var(--second-text-color);
     font-weight: 600;
     line-height: 24px;
 }
 
 /*----------------- Download -----------------*/
-.download{
+.download {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,18 +260,18 @@ main{
     gap: 50px;
 }
 
-.download-content{
+.download-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.download-cards{
+.download-cards {
     display: flex;
     gap: 10px;
 }
 
-.download-cards-content{
+.download-cards-content {
     display: flex;
     border-radius: 10px;
     border: 1px solid var(--muted-color);
@@ -261,14 +279,14 @@ main{
     padding: 18px 28px;
 }
 
-.download-cards-content-img{
+.download-cards-content-img {
     width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.download-cards-content-text h3{
+.download-cards-content-text h3 {
     color: var(--light-text-color);
     font-size: 16px;
     font-weight: bold;
@@ -276,13 +294,85 @@ main{
 }
 
 /*----------------- Pricing -----------------*/
-.pricing{
+.pricing {
     display: flex;
     flex-direction: column;
-    padding: 160px 0px;
+    padding: 100px 0px;
     gap: 96px;
     align-items: center;
 }
-.pricing-content h2{
-    margin-bottom: 10px;    
+
+.pricing-content h2 {
+    margin-bottom: 10px;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 30px;
+}
+
+.pricing-container-card {
+    display: flex;
+    padding: 50px;
+    background-color: var(--light-background-color);
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.pricing-container-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 217px;
+}
+
+.pricing-container-card-content h3 {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+.pricing-container-card-content p {
+    color: var(--second-text-color);
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.pricing-container-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 163px;
+}
+.pricing-value{
+    display: flex;
+    gap: 10px;
+}
+.pricing-value h2{
+    color: var(--primary-color);
+}
+.pricing-value-content h4{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.pricing-value-content p{
+    color: var(--disabled-element-color);
+    font-weight: 600;
+    line-height: 24px;
+}
+.pricing-container-card-container button{
+    padding: 15px 40px;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    font-size: 14px;
 }
