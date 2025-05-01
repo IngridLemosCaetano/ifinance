@@ -9,6 +9,21 @@ body{
     background-color: var(--dark-background-color);
     font-family: var(--font);
 }
+h2{
+    text-align: center;
+    color: var(--light-text-color);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--light-text-color);
+}
 
 :root{
     --dark-background-color: #252B42;
