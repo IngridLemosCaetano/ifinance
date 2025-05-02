@@ -111,6 +111,7 @@ main {
     line-height: 22px;
     letter-spacing: 0.2px;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .main-btn2 {
@@ -124,6 +125,10 @@ main {
     line-height: 22px;
     letter-spacing: 0.2px;
     cursor: pointer;
+    transition: 0.4s;
+}
+.main-btn a:hover{
+    transform: translateY(-5px);
 }
 
 /*----------------- Business -----------------*/
