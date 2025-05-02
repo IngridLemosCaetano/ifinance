@@ -271,6 +271,10 @@ main {
     border: 1px solid var(--muted-color);
     gap: 25px;
     padding: 18px 28px;
+    transition: 0.4s;
+}
+.download-cards-content:hover{
+    transform: translateY(-10px);
 }
 
 .download-cards-content-img {
