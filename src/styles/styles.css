@@ -375,3 +375,55 @@ main {
 
 
 /*----------------- Footer -----------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid #FFFFFF;
+}
+.footer-container{
+    display: flex;
+    padding: 80px 0px;
+    gap: 30px;
+    justify-content: center;
+}
+.footer-container-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 238px;
+}
+.footer-container-content p{
+    text-align: left;
+    width: 213px;
+}
+.footer-container-content-logo{
+    display: flex;
+    gap: 20px;
+}
+.footer-container-navigation{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    gap: 20px;
+}
+.footer-container-navigation nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-container-navigation nav ul li a{
+    color: var(--light-text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.footer-copy{
+    padding: 25px 0px;
+    background-color: var(--light-gray-1);
+}
+.footer-copy p {
+    color: var(--second-text-color);
+    font-weight: 600;
+    line-height: 24px;
+}
