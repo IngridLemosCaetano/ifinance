@@ -311,6 +311,7 @@ main {
     background-color: var(--light-background-color);
     gap: 30px;
     border-radius: 10px;
+    transition: 0.4s;
 }
 
 .pricing-container-card-content {
@@ -360,7 +361,7 @@ main {
     font-weight: 600;
     line-height: 24px;
 }
-.pricing-container-card-container button{
+.pricing-container-card-container a{
     padding: 15px 40px;
     background-color: var(--primary-color);
     color: var(--light-text-color);
@@ -369,6 +370,11 @@ main {
     line-height: 22px;
     letter-spacing: 0.2px;
     font-size: 14px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.pricing-container-card-container a:hover{
+    transform: scale(1.2);
 }
 
 /*----------------- Form -----------------*/
