@@ -400,6 +400,13 @@ footer{
     display: flex;
     gap: 20px;
 }
+.footer-container-content-logo img{
+    transition: 0.4s;
+}
+.footer-container-content-logo img:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
 .footer-container-navigation{
     display: flex;
     flex-direction: column;
@@ -410,6 +417,12 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.footer-container-navigation nav ul li{
+    transition: 0.4s;
+}
+.footer-container-navigation nav ul li:hover{
+    transform: translateX(10px);
 }
 .footer-container-navigation nav ul li a{
     color: var(--light-text-color);
