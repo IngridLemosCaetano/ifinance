@@ -66,6 +66,10 @@ header nav ul li:hover{
     gap: 15px;
     align-items: center;
     cursor: pointer;
+    transition: 0.4s;
+}
+.btn-new-members:hover{
+    transform: scale(1.1);
 }
 
 .btn-new-members p{
