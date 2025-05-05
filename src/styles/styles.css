@@ -615,6 +615,10 @@ footer{
     .world-container-text{
         width: 90%;
     }
+    .world-form{
+        margin: 0 auto;
+        /* align-items: center; */
+    }
     /*----------------- Footer -----------------*/
     .footer-container{
         padding: 40px 0px;
@@ -629,6 +633,117 @@ footer{
 }
 
 
-@media (max-width:500px){
-
+@media (max-width:485px){
+    h2{
+        font-size: 36px;
+    }
+    /*----------------- Header -----------------*/
+    header{
+        justify-content: center;
+    }
+    header nav{
+        display: none;
+    }
+    .header-btn{
+        display: none;        
+    } 
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+    /*----------------- Main -----------------*/
+    main{
+        flex-direction: column;
+    }
+    main img{
+        width: 100%;
+        height: 100%;
+    }
+    .main-container {
+        margin-left: 0px;
+        padding: 30px 0px;
+        width: 90%;
+    }
+    /*----------------- Business -----------------*/
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .card-info{
+        width: 280px;
+    }
+    /*----------------- Clients -----------------*/
+    .clients-review{
+        width: 85%;
+    }
+    .clients-review-infos{
+        padding: 0px 20px;
+    }
+    /*----------------- Download -----------------*/
+    .download-cards {
+        grid-template-columns: 1fr;
+    }
+    /*----------------- Pricing -----------------*/
+    .pricing{
+        padding: 25px;
+    }
+    .pricing-container{
+        flex-direction: column;
+        /* margin: 0px 20px; */
+    }
+    .pricing-container-card{
+        padding: 25px 15px;
+    }
+    .pricing-container-card-container{
+        width: 130px;        
+    }
+    .pricing-container-card-container a{
+        padding: 15px;
+        text-align: center;
+    }
+    /*----------------- Form -----------------*/
+    .world-container{
+        flex-direction: column;
+        padding: 25px;
+        gap: 25px;
+    }
+    .world-container-text{
+        width: 380px;
+        padding: 0px;
+    }
+    .world-container-text h2{
+        text-align: center;
+    }
+    .world-container-text p{
+        text-align: justify;
+    }
+    .world-container img{
+        margin: 0 auto;
+    }
+    .world-form img{
+        display: none;
+    }
+    .world-form{
+        width: 420px;
+        padding: 60px 0px;
+    }
+    .world-form form {
+        padding: 30px 15px;
+        margin: 10px;
+        width: 370px;
+    }
+    .world-form form a{
+        width: 370px;
+    }
+    /*----------------- Footer -----------------*/
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .footer-container-navigation{
+        width: 213px;
+    }
+    .footer-copy p{
+        font-size: 12px;
+    }
 }
