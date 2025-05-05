@@ -168,6 +168,7 @@ main {
 
 .content p {
     color: var(--second-text-color);
+    text-align: center;
 }
 
 .cards {
@@ -230,7 +231,9 @@ main {
     flex-direction: column;
     gap: 10px;
 }
-
+.clients-content p{
+    text-align: center;
+}
 .clients-review {
     display: flex;
     flex-direction: column;
@@ -248,7 +251,7 @@ main {
 
 .clients-review-infos-text p {
     font-weight: 400 !important;
-    line-height: 20px !important;
+    line-height: 20px !important; 
 }
 
 .clients-review-infos h3 {
@@ -262,6 +265,7 @@ main {
     color: var(--second-text-color);
     font-weight: 600;
     line-height: 24px;
+    text-align: center;
 }
 
 /*----------------- Download -----------------*/
@@ -278,6 +282,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.download-content p{
+    text-align: center;
 }
 
 .download-cards {
@@ -328,7 +335,9 @@ main {
     display: flex;
     gap: 30px;
 }
-
+.pricing-content-text p{
+    text-align: center;
+}
 .pricing-container-card {
     display: flex;
     padding: 50px;
@@ -465,6 +474,7 @@ main {
     border: 1px solid #E6E6E6;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.2px;
     outline: none;
@@ -481,12 +491,6 @@ main {
     font-weight: bold;
     line-height: 22px;
 }
-
-
-
-
-
-
 
 /*----------------- Footer -----------------*/
 footer{
@@ -553,4 +557,5 @@ footer{
     color: var(--second-text-color);
     font-weight: 600;
     line-height: 24px;
+    text-align: center;
 }
