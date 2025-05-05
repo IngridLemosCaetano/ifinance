@@ -315,7 +315,7 @@ main {
 .pricing {
     display: flex;
     flex-direction: column;
-    padding: 100px 0px;
+    padding: 80px 0px;
     gap: 96px;
     align-items: center;
 }
@@ -402,6 +402,90 @@ main {
 }
 
 /*----------------- Form -----------------*/
+.world{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+.world-container{
+    display: flex;
+    gap: 167px;
+    justify-content: center;
+}
+.world-container-text{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap: 15px;
+    width: 465px;
+}
+.world-container-text h2, p{
+    text-align: left;
+}
+
+.world-form{
+    display: flex;
+    margin: 0   auto;
+    width: 885px;
+    padding: 100px 0px;
+}
+.world-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--light-background-color);
+    padding: 40px 50px;
+}
+.world-form form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.world-form form fieldset legend{
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.world-form form fieldset label{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.world-form form fieldset input, select{
+    padding: 11px 21px;
+    background-color: #F9F9F9;
+    color: var(--second-text-color);
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    outline: none;
+}
+.world-form form a{
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 15px 40px;
+    width: 510px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+
+
+
+
 
 
 /*----------------- Footer -----------------*/
