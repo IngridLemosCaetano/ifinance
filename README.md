@@ -16,11 +16,11 @@
 
 <!-- MODELO DE DESCRIÇÃO -->
 ## 📄 Descrição do entregável
-
+- docs
+  - Ificance-prototype
 - src
   - assets
-  - style
-  - fonts
+  - styles
   - images
 
 - index.html
